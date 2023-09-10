@@ -36,8 +36,9 @@ save perubahan stb.conf.\
 * Tambahkan ip dan subdomain \
 `192.168.194.4   stb.legends-studio.eu.org` \
 
-* Aktifkan phpproxy
-` sudo a2enmod proxy `
+* Aktifkan phpproxy \
+` sudo a2enmod proxy ` \
+` sudo a2enmod proxy_http `\
 
 #### Bagian dns seting
 * add cname record
